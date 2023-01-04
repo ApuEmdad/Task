@@ -93,6 +93,7 @@
 const timeLineArray = () => {
   const firstDate = new Date("01/01/2019");
   const lastDate = new Date();
+
   const timeLine = [];
   let currentDate = firstDate;
   while (currentDate <= lastDate) {
